@@ -4,16 +4,6 @@
     "description": "Base Level Extension",
     "version": "1.0",
     "permissions": ["tabs","scripting","activeTab"],
-    "content_scripts": [
-      {
-        "matches": [
-          "http://*/*",
-          "https://*/*"
-                ],
-        "js": ["content.js"],
-        "css" : ["mycss.css"]
-      }
-    ],
     "action": {
     },
     "background": {
