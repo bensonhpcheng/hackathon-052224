@@ -8,7 +8,16 @@
     },
     "background": {
       "service_worker": "background.js"
-    }
+    },
+    "icons":{
+      "16":"icon.png"
+    },
+    "web_accessible_resources":[
+    {
+      "resources":  ["icon_use.png"],
+      "matches": ["https://*/*", "http://*/*"] 
+    }]
+
   }
  
   

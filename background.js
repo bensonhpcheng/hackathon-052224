@@ -7,6 +7,7 @@ chrome.action.onClicked.addListener(function(activeTab) {
         files : [ "content.js" ],
     });
 
+
     if(start){
         chrome.scripting.insertCSS({
         target : {tabId : tabs[0].id},
