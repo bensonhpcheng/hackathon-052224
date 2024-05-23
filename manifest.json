@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Hello Extensions",
-    "description": "Base Level Extension",
+    "name": "Party Time",
+    "description": "Time to Party",
     "version": "1.0",
     "permissions": ["tabs","scripting","activeTab"],
     "action": {
